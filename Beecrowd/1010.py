@@ -1,0 +1,10 @@
+a1,b1,c1=input().split()
+a2,b2,c2=input().split()
+a1=int(a1)
+b1=int(b2)
+c1=float(c2)
+a2=int(a2)
+b2=int(b2)
+c2=float(c2)
+resultado=b2*c2+b1*c1
+print(f"VALOR A PAGAR: R$ {resultado:,.2f}")
